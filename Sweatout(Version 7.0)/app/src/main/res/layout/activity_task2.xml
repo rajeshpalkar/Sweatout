@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android = "http://schemas.android.com/apk/res/android">
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id = "@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.rajeshpalkar.a05.Task2Activity"
+        android:layout_below="@+id/toolbar1" >
+    </FrameLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id = "@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#ccc">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/toolbar1_title" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/aboutmeicon"
+                android:layout_toRightOf="@id/toolbar1_title"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccc"
+        android:elevation="5dp"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentBottom="true">
+
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>

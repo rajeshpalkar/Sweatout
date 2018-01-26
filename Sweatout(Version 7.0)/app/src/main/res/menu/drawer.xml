@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:checkableBehavior="single">
+
+             <item
+                 android:id = "@+id/item2"
+                 android:checked="false"
+                 android:icon="@drawable/ic_fitness_center_black_24dp"
+                 android:title="Exercises"/>
+
+             <item
+                 android:id = "@+id/item3"
+                 android:checked="false"
+                 android:icon="@drawable/task2icon"
+                 android:visible="false"
+                 android:title="Exercises Toolbars"/>
+            <item
+                android:id = "@+id/item4"
+                android:checked="false"
+                android:icon="@drawable/ic_pool_black_24dp"
+                android:title="Workouts"/>
+
+            <item
+                android:id = "@+id/item5"
+                android:checked="false"
+                android:icon="@drawable/ic_party_mode_black_24dp"
+                android:title="Progress Photos"/>
+
+            <item
+                android:id = "@+id/item6"
+                android:checked="false"
+                android:icon="@drawable/ic_near_me_black_24dp"
+                android:title="Find Nearby Gyms"/>
+
+            <item
+                android:id = "@+id/item7"
+                android:checked="false"
+                android:icon="@drawable/ic_alarm_black_24dp"
+                android:title="Reminders"/>
+
+            <item
+                android:id = "@+id/item1"
+                android:checked="false"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="About Us"/>
+         </group>
+</menu>

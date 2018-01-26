@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sweatout</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="collapsing_toolbar">Collapsing Toolbar</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

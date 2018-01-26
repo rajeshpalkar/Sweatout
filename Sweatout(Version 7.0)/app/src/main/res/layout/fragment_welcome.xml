@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajeshpalkar.sweatout.WelcomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e1f5fe">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:textStyle="italic"
+            android:textSize="34sp"
+            android:id="@+id/welcometext"/>
+
+        <ImageView
+            android:id="@+id/ppimage"
+            android:layout_width="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_height="100dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="370dp"
+        android:layout_below="@id/welcometext"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="448dp"
+        android:layout_gravity="center"
+        android:src="@drawable/welcomequote" />
+
+
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
